@@ -1,0 +1,14 @@
+#creating directory
+mkdir -p src
+mkdir -p research
+
+#creating files
+touch src/_init_.py
+touch src/helper.py
+touch .env
+touch setup.py
+touch app.py
+touch research/tirals.ipynb
+touch requirements.txt
+
+echo "initial Directory created successfully"
