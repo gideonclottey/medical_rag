@@ -1,2 +1,64 @@
 # medical_rag
-Building a Simple Medical Rag
+
+
+
+# Building a Simple Medical Rag-with-LLMs-LangChain-Pinecone-Flask-AWS
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+git clonehttps://github.com/gideonclottey/medical_rag.git
+```
+### STEP 01- Create a Virtual environment after opening the repository
+
+```bash
+Python -m venv .venv
+```
+
+```bash
+source .venv/Scripts/activate
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
+
+```ini
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+
+```bash
+# run the following command to store embeddings to pinecone
+python store_index.py
+```
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up localhost:
+```
+
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- GROQ
+- Pinecone
+- Huggingface
+

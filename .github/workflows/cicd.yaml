@@ -1,0 +1,10 @@
+name: Deploy Application Docker Umage to Cloud
+
+on :
+    push:
+      beanches:[main]
+
+
+jobs:
+  Continuous-Integration:
+    runs
