@@ -1,7 +1,3 @@
-# medical_rag
-
-
-
 # Building a Simple Medical Rag-with-LLMs-LangChain-Pinecone-Flask-AWS
 
 # How to run?
